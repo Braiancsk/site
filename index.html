@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+  <nav class="light-blue darken-3">
+    <div class="nav-wraper container">
+      <a id="logo-container" href="#" class="brand-logo">Bioline</a>
+    
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="bg-img.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="card-panel light cyan-text text-accent-4">Certificados de Qualidade!</h3>
+          <h5 class="card-panel light cyan-text text-accent-4">Produtos certificados com mais alto padrão de qualidade.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="bg-img.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="card-panel light cyan-text text-accent-4">Left Aligned Caption</h3>
+          <h5 class="card-panel light cyan-text text-accent-4">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="bg-img.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="card-panel light cyan-text text-accent-4">Right Aligned Caption</h3>
+          <h5 class="card-panel light cyan-text text-accent-4">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="bg-img.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="card-panel light cyan-text text-accent-4">This is our big Tagline!</h3>
+          <h5 class="card-panel light cyan-text text-accent-4">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+    </div><!--container-->
+  </div><!--section-->
+
+  <div class="container">
+    <div class="section">
+      <!--sistema de grid do materialize-->
+      <div class="row">
+        <div class="col m6 s12">
+          
+          <h2 class="center light-blue-text">Cuidando do bem mais precioso,<br> Você</h2>
+           <h5 class="center light-blue-text text-lighten-3">Confie em quem tem mais de 10 anos no mercado.</h5>
+           
+         
+        </div>
+
+       <div class="col m6 s12">
+         <img class="responsive-img right" src="humans.png">
+        </div>
+      </div><!--row-->
+    </div><!--section-->
+  </div><!--container-->
+
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <h3 class="center light-blue-text">Conheça nossa linha de produtos</h3>
+         <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img2.jpg"><p class="center light-blue-text">ABS20CR30G</p></a>
+        <a class="carousel-item" href="#two!"><img src="img2.jpg"><p class="center light-blue-text">ABS20CR30G</p></a>
+        <a class="carousel-item" href="#three!"><img src="img2.jpg"><p class="center light-blue-text">ABS20CR30G</p></a>
+        <a class="carousel-item" href="#four!"><img src="img2.jpg"><p class="center light-blue-text">ABS20CR30G</p></a>
+        <a class="carousel-item" href="#five!"><img src="img2.jpg"><p class="center light-blue-text">ABS20CR30G</p></a>
+     
+        </div>
+      </div><!--row-->
+    </div><!--container-->
+  </div><!--section-->
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col m6 s12">
+          <h3 style="margin: 0;" class="left light-blue-text">Entre em contato</h3>
+          <p style="margin-bottom:10px;" class="left light-blue-text">Agende uma visita e conheça nossas instalções</p>
+
+          <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">Nome</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Sobrenome</label>
+        </div>
+
+         <div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telefone</label>
+        </div>
+
+      </div>
+      <div class="row">
+         <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+          <span class="helper-text" data-error="Email incorreto" data-success="Tudo certo!"></span>
+        </div>
+      <a class="waves-effect waves-light btn">Enviar</a>
+     </div>
+    </form>
+  </div>
+
+        </div>
+
+        <div class="col m6 s12">
+          <img style="margin-top: 20px;" class="responsive-img" src="empresa.jpg">
+        </div>
+      </div><!--row-->
+    </div><!--container-->
+  </div><!--section-->
+
+
+
+  <footer class="page-footer light-blue lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            BIOLINE FIOS CIRÚRGICOS LTDA
+            CNPJ 37.844.479/0001-52, I.E.10.288.412-9, Av. Maranhão, nº 500, Bairro Jundiaí, Anápolis - GO, Brasil, CEP 75.110-470
+            Tel: 55(62)3324-2120/0401 e 3703-2200/2201, Fax: 55(62)3324-3072 e 3703-2224. www.biolinefios.com.br, contato@biolinefios.com.br
+            Copyright © 2010 Bioline Fios Cirúrgicos Ltda. Todos os Direitos Reservados.
+            <a class="grey-text text-lighten-4 right" href="#!">FellipeDev</a>
+            </div>
+          </div>
+        </footer>
+
+  
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
